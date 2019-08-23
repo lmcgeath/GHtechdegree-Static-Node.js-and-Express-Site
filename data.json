@@ -1,0 +1,47 @@
+{
+    "projects": [
+        {"id": 0,
+         "project_name": "Random Quote Generator",
+         "description": "This app displays a random quote and background color. It is guaranteed to inspire you.",
+         "tecknologies": ["JavaScript, HTML, CSS"],
+         "live_link": "https://lmcgeath.github.io/techdegree-randomQuoteGenerator/",
+         "github_link": "https://github.com/lmcgeath/techdegree-randomQuoteGenerator",
+         "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]
+}, 
+{       "id": 1,
+        "project_name": "Pagination",
+        "description": "This app takes a dynamic list of students and displays 10 students per page. It creates and appends the appropriate number of page links for the incoming list.",
+        "tecknologies": ["JavaScript, HTML, CSS"],
+        "live_link": "https://lmcgeath.github.io/GHtechdegree-pagination/",
+        "github_link": "https://github.com/lmcgeath/GHtechdegree-pagination",
+        "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]
+},
+{       "id": 2,
+        "project_name": "Interactive Form",
+        "description": "This app creates and validates a form based on user selection and input.",
+        "tecknologies": ["JavaScript, HTML, CSS", "jQuery"],
+        "live_link": "https://lmcgeath.github.io/GHtechdegree-InteractiveForm/",
+        "github_link": "https://github.com/lmcgeath/GHtechdegree-InteractiveForm",
+        "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]
+
+},
+{       "id": 3,
+        "project_name": "Phrase Hunter Game",
+        "description": "This is an interactive game where the player guesses letters in a phrase by clicking the on-screen letters. The hearts represent your lives so guess carefully!",
+        "tecknologies": ["JavaScript, HTML, CSS"],
+        "live_link": "https://lmcgeath.github.io/GHtechdegree-OOP-Game-Show-App/",
+        "github_link": "https://github.com/lmcgeath/GHtechdegree-OOP-Game-Show-App",
+        "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]
+
+},
+{       "id": 4,
+        "project_name": "Public API Requests",
+        "description": "This app fetches public api data, parses it and displays 12 random employees to the page.",
+        "tecknologies": ["JavaScript, HTML, CSS", "HTTP", "API"],
+        "live_link": "https://lmcgeath.github.io/GHtechdegree-Public-API-Requests/",
+        "github_link": "https://github.com/lmcgeath/GHtechdegree-Public-API-Requests",
+        "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]
+
+        }
+    ]
+}

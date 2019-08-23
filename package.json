@@ -1,0 +1,27 @@
+{
+  "name": "ghtechdegree-static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "Portfolio for completed projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmcgeath/GHtechdegree-Static-Node.js-and-Express-Site.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Lucas McGeath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmcgeath/GHtechdegree-Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/lmcgeath/GHtechdegree-Static-Node.js-and-Express-Site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  }
+}
