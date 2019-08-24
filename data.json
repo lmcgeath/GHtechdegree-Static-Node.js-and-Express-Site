@@ -3,7 +3,7 @@
         {"id": 0,
          "project_name": "Random Quote Generator",
          "description": "This app displays a random quote and background color. It is guaranteed to inspire you.",
-         "tecknologies": ["JavaScript, HTML, CSS"],
+         "technologies": ["JavaScript, HTML, CSS"],
          "live_link": "https://lmcgeath.github.io/techdegree-randomQuoteGenerator/",
          "github_link": "https://github.com/lmcgeath/techdegree-randomQuoteGenerator",
          "image_urls": ["/GHtechdegree-Static-Node.js-and-Express-Site/images/InteractiveForm1.png"]

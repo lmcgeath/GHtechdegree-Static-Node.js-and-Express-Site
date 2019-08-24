@@ -7,8 +7,8 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interpolation to dynamically add the project title.
-        h1 Title
+        //- Use interpolation to dynamically add the project title. Will need to change, this is an example that shows I can call the json data
+        h1 #{project[0].project_name}
 
         //- Use interpolation to dynamically add the project description.
         p.lead.text-light
@@ -18,10 +18,13 @@ block content
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
+        
         ul
-          li HTML
-          li CSS
-          li JavaScript
+          each item in project
+            li= item.technologies
+            //- //need to figure out how to loop each technology into separate list items
+            //- li= item.technologies
+            //- li JavaScript
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
         a.button.expanded(href='') Live Demo
