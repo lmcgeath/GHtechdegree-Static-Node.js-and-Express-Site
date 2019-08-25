@@ -148,3 +148,38 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+/*Sets gradient background*/
+#my-info {
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg,#fdf680 0%,#ce211b 50%, #88f3f5 100%);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*project screenshots*/
+div.cell> a >.thumbnail{
+  margin-left: 15px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+/*project titles*/
+div.cell> a > h5{
+  margin-left: 15px;
+}
+/*profile picture*/
+img.thumbnail{
+  box-shadow: 5px 5px 5px #0a0a0a;
+}

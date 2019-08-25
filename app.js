@@ -34,12 +34,12 @@ app.use((req, res, next) => {
     next(err);
 })
 //For some reason having this commented out keeps the 'cannot set headers' error from being thrown when I make changes to the pug files...
-// app.use((err, req, res, next) => {
-//     res.locals.error = err;
-//     res.status(err.status);
-//     res.render('error', err);
-//     next(err);
-// });
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
+    next(err);
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')

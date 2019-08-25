@@ -27,7 +27,7 @@
 },
 {       "id": 3,
         "project_name": "Phrase Hunter Game",
-        "description": "This is an interactive game where the player guesses letters in a phrase by clicking the on-screen letters. The hearts represent your lives so guess carefully!",
+        "description": "This is an interactive game built using object-oriented programming. The player guesses letters in a phrase by clicking the on-screen keys. The hearts represent your lives so guess carefully!",
         "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://lmcgeath.github.io/GHtechdegree-OOP-Game-Show-App/",
         "github_link": "https://github.com/lmcgeath/GHtechdegree-OOP-Game-Show-App",
