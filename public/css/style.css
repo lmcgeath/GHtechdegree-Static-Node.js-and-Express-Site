@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+  color: white;
+}
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -19,7 +23,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(233, 227, 227);
   }
 
 .round{
@@ -27,7 +31,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: rgb(233, 227, 227);
+}
+
+div.cell.auto > p.text-light{
+  color: #333;
 }
 
 .button{
@@ -39,11 +47,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(233, 227, 227);
 }
 
 a:hover{
-  color: #111;
+  color: #999;
 }
 
 .image{
@@ -142,7 +150,6 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
 }
 
 .portfolio-bio{
@@ -182,4 +189,33 @@ div.cell> a > h5{
 /*profile picture*/
 img.thumbnail{
   box-shadow: 5px 5px 5px #0a0a0a;
+}
+
+/*text slide in*/
+div > h1 {
+  width:100%;
+  overflow:hidden;
+  animation: slide-left 1s;
+}
+
+.portfolio-intro p{
+  width:100%;
+  overflow:hidden;
+  animation: slide-left 1.25s;
+}
+.portfolio-project p{
+  animation: slide-left 0.5s;
+
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

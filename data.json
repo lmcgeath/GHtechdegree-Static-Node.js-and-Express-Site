@@ -37,7 +37,7 @@
 {       "id": 4,
         "project_name": "Public API Requests",
         "description": "This app fetches public api data, parses it and displays 12 random employees to the page.",
-        "technologies": ["JavaScript", "HTML", "CSS", "HTTP"],
+        "technologies": ["JavaScript", "HTML", "CSS"],
         "live_link": "https://lmcgeath.github.io/GHtechdegree-Public-API-Requests/",
         "github_link": "https://github.com/lmcgeath/GHtechdegree-Public-API-Requests",
         "image_urls": ["/static/images/api1.png", "/static/images/api2.png", "/static/images/api3.png","/static/images/api4.png"]
