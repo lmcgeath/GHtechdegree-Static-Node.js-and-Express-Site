@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgba(15, 14, 14, 0.836);
   color: white;
 }
 
@@ -160,7 +160,7 @@ a:hover{
 	height: 100vh;
 	font-family: "Exo", sans-serif;
 	color: #fff;
-	background: linear-gradient(-45deg,#fdf680 0%,#ce211b 50%, #88f3f5 100%);
+	background: linear-gradient(-45deg,#fdf680 0%,#9da2e467 50%, #88f3f5 100%);
 	background-size: 400% 400%;
 	animation: gradientBG 15s ease infinite;
 }
@@ -185,6 +185,7 @@ div.cell> a >.thumbnail{
 /*project titles*/
 div.cell> a > h5{
   margin-left: 15px;
+  padding-bottom: 50px;
 }
 /*profile picture*/
 img.thumbnail{
@@ -196,6 +197,14 @@ div > h1 {
   width:100%;
   overflow:hidden;
   animation: slide-left 1s;
+}
+/*github & live demo buttons*/
+.portfolio-meta .button{
+   background-color: slategray;
+}
+
+.portfolio-meta .button:hover{
+   background-color: salmon;
 }
 
 .portfolio-intro p{
