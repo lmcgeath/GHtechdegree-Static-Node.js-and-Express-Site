@@ -8,14 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-     "node":"12.13.0"
+    "node": "12.13.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmcgeath/GHtechdegree-Static-Node.js-and-Express-Site.git"
   },
   "keywords": [
-    "portfolio"
+    "portfolio",
+    "heroku"
   ],
   "author": "Lucas McGeath",
   "license": "ISC",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/lmcgeath/GHtechdegree-Static-Node.js-and-Express-Site#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "git": "^0.1.5",
     "nodemon": "^1.19.1",
     "pug": "^2.0.4"
   }
