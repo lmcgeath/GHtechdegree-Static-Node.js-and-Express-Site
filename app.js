@@ -38,5 +38,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(process.env.PORT ||3000, () => {
-    console.log('The application is running ' + process.env.PORT)
+    console.log('The application is running on localhost: ' + process.env.PORT)
 });
