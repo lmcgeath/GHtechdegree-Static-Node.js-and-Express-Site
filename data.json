@@ -22,7 +22,7 @@
         "technologies": ["JavaScript", "HTML", "CSS", "jQuery"],
         "live_link": "https://lmcgeath.github.io/GHtechdegree-InteractiveForm/",
         "github_link": "https://github.com/lmcgeath/GHtechdegree-InteractiveForm",
-        "image_urls": ["/static/images/InteractiveForm1.png", "/static/images/interactiveForm2.png", "/static/images/interactiveForm3.png", "/static/images/interactiveForm4.png"]
+        "image_urls": ["/static/images/interactiveForm1.png", "/static/images/interactiveForm2.png", "/static/images/interactiveForm3.png", "/static/images/interactiveForm4.png"]
 
 },
 {       "id": 3,
