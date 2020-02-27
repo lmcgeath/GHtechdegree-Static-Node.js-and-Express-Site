@@ -6,7 +6,7 @@
          "technologies": ["JavaScript", "HTML", "CSS"],
          "live_link": "https://lmcgeath.github.io/techdegree-randomQuoteGenerator/",
          "github_link": "https://github.com/lmcgeath/techdegree-randomQuoteGenerator",
-         "image_urls": ["/static/images/randomQuote1.PNG", "/static/images/randomQuote2.png", "/static/images/randomQuote3.png", "/static/images/randomQuote4.PNG"]
+         "image_urls": ["/static/images/randomQuote1.png", "/static/images/randomQuote2.png", "/static/images/randomQuote3.png", "/static/images/randomQuote4.png"]
 }, 
 {       "id": 1,
         "project_name": "List Pagination",
