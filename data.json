@@ -42,6 +42,14 @@
         "github_link": "https://github.com/lmcgeath/GHtechdegree-Public-API-Requests",
         "image_urls": ["/static/images/api1.png", "/static/images/api2.png", "/static/images/api3.png","/static/images/api4.png"]
 
-        }
+        },
+        {"id": 5,
+         "project_name": "React Gallery App",
+         "description": "This app uses React to fetch images from the Flickr api based on user searches.",
+         "technologies": ["React", "Public API Call", "CSS"],
+         "live_link": "https://lmcgeath.github.io/GHtechdegree-React-App/",
+         "github_link": "https://github.com/lmcgeath/GHtechdegree-React-App",
+         "image_urls": ["/static/images/react1.png", "/static/images/react2.png","/static/images/react3.png", "/static/images/react4.png"]
+}
     ]
 }
